@@ -1,7 +1,7 @@
 import React from 'react'
 import {HashRouter, Route, Routes} from "react-router-dom";
-import PageOne from "./PageOne";
-import PageTwo from "./PageTwo";
+import PageOne from "./components/PageOne";
+import PageTwo from "./components/PageTwo";
 
 const App = () => {
     return(
