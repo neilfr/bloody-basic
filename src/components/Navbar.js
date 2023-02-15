@@ -17,7 +17,7 @@ const NavBarIcon = ({ icon, text, destination }) => (
     <a href={destination}>
         <div className="navbar-icon group">
             {icon}
-            <span class="navbar-tooltip group-hover:scale-100">
+            <span className="navbar-tooltip group-hover:scale-100">
           {text}
         </span>
         </div>

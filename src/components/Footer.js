@@ -14,7 +14,7 @@ const FooterIcon = ({ icon, text, destination }) => (
     <a href={destination} target="_blank">
         <div className="footer-icon group">
             {icon}
-            <span class="footer-tooltip group-hover:scale-100">
+            <span className="footer-tooltip group-hover:scale-100">
           {text}
         </span>
         </div>
