@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-import CodeWarriorsHome from "../resources/codewarriors_home.jpg";
-import SnapCycleHome from "../resources/snapcycle_home.png";
-import PortfolioSkills from "../resources/portfolio_skills.png";
-const home = () => {
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+import PortfolioSkills from "../resources/portfolio_skills.png"
+import SnapCycleHome from "../resources/snapcycle_home.png"
+import CodeWarriorsHome from "../resources/codewarriors_home.jpeg"
+const Home = () => {
     return (
         <>
             <div className="bg-gray-800 w-screen font-bold text-white">
@@ -67,4 +67,4 @@ const home = () => {
     );
 };
 
-export default home;
+export default Home;

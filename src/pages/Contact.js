@@ -1,7 +1,7 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
-const contact = () => {
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
+const Contact = () => {
     return (
         <div className="text-white bg-gray-900 w-screen font-bold text-white">
             <Navbar/>
@@ -32,4 +32,4 @@ const contact = () => {
     );
 };
 
-export default contact;
+export default Contact;

@@ -1,10 +1,10 @@
 import React from "react";
-import Navbar from "../components/navbar";
-import Footer from "../components/footer";
+import Navbar from "../components/Navbar";
+import Footer from "../components/Footer";
 import CodeWarriorsHome from "../resources/codewarriors_home.jpg";
 import SnapCycleHome from "../resources/snapcycle_home.png";
 import PortfolioSkills from "../resources/portfolio_skills.png";
-const projects = () => {
+const Projects = () => {
     return (
         <>
             <div className="bg-gray-800 w-screen font-bold text-white">
@@ -63,4 +63,4 @@ const projects = () => {
     );
 };
 
-export default projects;
+export default Projects;
