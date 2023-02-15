@@ -1,15 +1,15 @@
 {
   "files": {
     "main.css": "/bloody-basic/static/css/main.e6c13ad2.css",
-    "main.js": "/bloody-basic/static/js/main.b320eb44.js",
+    "main.js": "/bloody-basic/static/js/main.c80f8932.js",
     "static/js/787.8676bd76.chunk.js": "/bloody-basic/static/js/787.8676bd76.chunk.js",
     "index.html": "/bloody-basic/index.html",
     "main.e6c13ad2.css.map": "/bloody-basic/static/css/main.e6c13ad2.css.map",
-    "main.b320eb44.js.map": "/bloody-basic/static/js/main.b320eb44.js.map",
+    "main.c80f8932.js.map": "/bloody-basic/static/js/main.c80f8932.js.map",
     "787.8676bd76.chunk.js.map": "/bloody-basic/static/js/787.8676bd76.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.e6c13ad2.css",
-    "static/js/main.b320eb44.js"
+    "static/js/main.c80f8932.js"
   ]
 }
