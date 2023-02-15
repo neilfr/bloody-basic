@@ -1,10 +1,15 @@
 import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
-import CodeWarriorsHome from "../resources/codewarriors_home.jpg";
+import CodeWarriorsHome from "../resources/codewarriors_home.jpeg";
 import SnapCycleHome from "../resources/snapcycle_home.png";
 import PortfolioSkills from "../resources/portfolio_skills.png";
+import {useNavigate} from "react-router";
 const Projects = () => {
+    let navigate = useNavigate()
+    const goToPortfolio = () => {
+        navigate("/portfolio")
+    }
     return (
         <>
             <div className="bg-gray-800 w-screen font-bold text-white">
@@ -16,7 +21,7 @@ const Projects = () => {
                             <div className="mx-16 mt-32 flex flex-row justify-center items-center">
                                 <div className="w-1/3 flex flex-col justify-center text-4xl items-center rounded-xl">
                                     <div className="pb-4">Portfolio</div>
-                                    <a href="/portfolio/" className="hover:opacity-50">
+                                    <a onClick={goToPortfolio} className="hover:opacity-50">
                                         <img src={PortfolioSkills} className="rounded-2xl border-4 border-gray-900"/>
                                     </a>
                                 </div>

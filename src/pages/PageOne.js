@@ -10,6 +10,7 @@ const PageOne = () => {
         <div>
             <h2>PageOne</h2>
             <button onClick={gotoPage2}>GoTo PageTwo</button>
+            <a onClick={gotoPage2}>page two</a>
         </div>
     )
 }

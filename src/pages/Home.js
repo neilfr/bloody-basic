@@ -4,7 +4,14 @@ import Footer from "../components/Footer";
 import PortfolioSkills from "../resources/portfolio_skills.png"
 import SnapCycleHome from "../resources/snapcycle_home.png"
 import CodeWarriorsHome from "../resources/codewarriors_home.jpeg"
+import {useNavigate} from "react-router";
+
 const Home = () => {
+    let navigate = useNavigate()
+
+    const goToProjects = () => {
+        navigate('/projects')
+    }
     return (
         <>
             <div className="bg-gray-800 w-screen font-bold text-white">
@@ -23,15 +30,15 @@ const Home = () => {
                     <div className="p-4 flex flex-row flex-wrap justify-around items-center">
                         <div className="mt-32 flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
                             <div className="pb-4">Portfolio</div>
-                            <a href="/portfolio/projects"><img src={PortfolioSkills} className="flex h-64 w-128 border-4 border-gray-900"/></a>
+                            <a onClick={goToProjects}><img src={PortfolioSkills} className="flex h-64 w-128 border-4 border-gray-900"/></a>
                         </div>
                         <div className="mt-32 flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
                             <div className="pb-4">SnapCycle</div>
-                            <a href="/portfolio/projects"><img src={SnapCycleHome} className="flex h-64 w-128 border-4 border-gray-900"/></a>
+                            <button onClick={goToProjects}><img src={SnapCycleHome} className="flex h-64 w-128 border-4 border-gray-900"/></button>
                         </div>
                         <div className="mt-32 flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
                             <div className="pb-4">CodeWarriors</div>
-                            <a href="/portfolio/projects"><img src={CodeWarriorsHome} className="flex h-64 w-128 border-4 border-gray-900"/></a>
+                            <a onClick={goToProjects}><img src={CodeWarriorsHome} className="flex h-64 w-128 border-4 border-gray-900"/></a>
                         </div>
                     </div>
                 </div>
