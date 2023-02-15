@@ -8,7 +8,7 @@ const App = () => {
     return(
         <div>
             <h1>
-                Hello World
+                Basic
             </h1>
             <BrowserRouter>
                 <Routes>
