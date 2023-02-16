@@ -9,9 +9,6 @@ import Contact from "./pages/Contact";
 const App = () => {
     return(
         <div className="flex">
-            <h1>
-                Basic
-            </h1>
             <HashRouter>
                 <Routes>
                     <Route path="/" element={<Home/>}/>

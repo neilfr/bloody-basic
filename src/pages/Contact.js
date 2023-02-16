@@ -2,6 +2,9 @@ import React from "react";
 import Navbar from "../components/Navbar";
 import Footer from "../components/Footer";
 const Contact = () => {
+    const foo = () => {
+        console.log("foo")
+    }
     return (
         <div className="text-white bg-gray-900 w-screen font-bold text-white">
             <Navbar/>
@@ -12,15 +15,21 @@ const Contact = () => {
                 </div>
                 <div className="h-auto bg-gray-900">
                     <div className="p-4 flex flex-row justify-center items-center">
-                        <div className="flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
-                            <div className="pb-4">Github</div>
-                        </div>
-                        <div className="flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
-                            <div className="pb-4">Email</div>
-                        </div>
-                        <div className="flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
-                            <div className="pb-4">LinkedIn</div>
-                        </div>
+                        <a href="https://github.com/aidanfroggatt" >
+                            <div className="flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
+                                <div className="pb-4">Github</div>
+                            </div>
+                        </a>
+                        <a href="mailto:aidanfr@live.ca">
+                            <div className="flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
+                                <div className="pb-4">Email</div>
+                            </div>
+                        </a>
+                        <a href="https://www.linkedin.com/in/aidanfroggatt/">
+                            <div className="flex flex-col justify-center text-4xl items-center bg-gray-800 p-4 rounded-xl">
+                                <div className="pb-4">LinkedIn</div>
+                            </div>
+                        </a>
                     </div>
                 </div>
             </div>
